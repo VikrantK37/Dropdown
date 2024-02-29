@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  
+  background-color: aqua;
+}
+
+#cont{
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: coral;
+  padding: 20px;
+  display: block;
+}
+
+a:hover{
+  background-color: white;
+  color: cadetblue;
+}
+
+#menu{
+  list-style-type: none;
+  background-color: burlywood;
+  color:brown;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  display: none;
+}
+
+#drop:hover #menu{
+display: block;
+}
+
+#ul1{
+  list-style-type: none;
+  background-color: blanchedalmond;
+  color: blueviolet;
+  padding: 20px;
+  margin-right:0px;
+  display: none;
+  position: absolute;
+}
+
+#li2:hover #ul1{
+  display: block;
+}
+
+/* img{
+  position: relative;
+  top: 0px;
+  left: 0px;
+} */
+
+/* img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+
+/* img{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+} */
+
+/* img{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+} */
+
+/* h1{
+  position: relative;
+  top: 0px;
+  left: 20px;
+  right: 0px;
+  bottom: 0px;
+} */
+
+/* h1{
+  position: absolute;
+  top: -90px;
+  bottom: 0px;
+} */
+
+/* h1{
+  position: fixed;
+  top:-200px ;
+  bottom: 200px;
+} */
+
+/* #parent{
+  background-color: coral;
+  height: 200px;
+}
+
+h1{
+  color: blueviolet;
+  margin: 0px;
+} */
+
+/* #parent:hover{
+  background-color: cyan;
+} */
+
+/* #parent:hover h1{
+  background-color: cornsilk;
+  color: aqua;
+}
+
+h2:hover a{
+  color: chartreuse;
+} */
